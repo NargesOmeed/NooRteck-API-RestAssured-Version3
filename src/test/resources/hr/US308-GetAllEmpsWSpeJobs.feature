@@ -1,6 +1,6 @@
 Feature: Get All Employees With Specific jobs by job Id API
 
-  @GetAllEmpsWithSpecJobs
+  @GetAllExDeps
   Scenario Outline: Verify User able to retrieve all employees with a specific job
     Given User set <apiName> <region> webservice api
     And User sets Path Parameters <path>
